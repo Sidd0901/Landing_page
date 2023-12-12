@@ -168,9 +168,9 @@ font-style: italic;
     height: 2svh;
 }
 
-.right {
+.right button{
     font-size: 1.5svw;
-    background-color: rgb(34, 151, 197) !important;
+    background-color: rgb(34, 151, 197) ;
     padding-top: 0.4svh;
     margin: 3.5svh 0 4svh 2svw;
     color: white;
@@ -178,7 +178,15 @@ font-style: italic;
     border-radius: 5px;
     font-weight: bolder;
    height: 4.3svh;
+   appearance: none;
 }
+
+.right button:hover
+{
+    background-color: skyblue;
+}
+
+
 
 .blank{
     height: 5svw;
